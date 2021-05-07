@@ -17,6 +17,7 @@
 
 /*registration*/
 .container {
+  width: 95%;
   text-align: left;
   background-color: #fffff9 !important;
 }
