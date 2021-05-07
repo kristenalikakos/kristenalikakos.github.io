@@ -17,8 +17,6 @@
 
 /*registration*/
 .container {
-  grid-row: 2 / 4;
-  padding: 10px;
   text-align: left;
   background-color: #fffff9 !important;
 }
