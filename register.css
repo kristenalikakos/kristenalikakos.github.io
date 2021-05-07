@@ -2,7 +2,7 @@
 .grid-column-layout {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 20vh 60vh 0vh 0vh 20vh;
+  grid-template-rows: 20vh 70vh 0vh 0vh 20vh;
 }
 
 /* dragon */
