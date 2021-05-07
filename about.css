@@ -1,0 +1,85 @@
+/*text*/
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  color: #653a29;
+}
+
+h4 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #653a29;
+}
+
+/*grid*/
+.grid-column-layout {
+  display: grid;
+  grid-template-rows: 20vh 60vh 0vh 0vh 20vh;
+}
+
+/*about*/
+.two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffff9 !important;
+  padding-left: 1.5rem;
+}
+
+/*image*/
+.three {
+  display: flex;
+  background-color: #fffff9;
+  flex-direction: column;
+}
+
+/*tournament schedule*/
+.four{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: center;
+  background-color: #fffff9;
+}
+
+/*media query*/
+@media screen and (max-width: 780px) {
+  .grid-column-layout{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, .5fr);
+  }
+  .one{
+      grid-column: 1 / 2;
+      grid-row: 1 / 2;
+
+    }
+
+    .two{
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+    }
+
+    .three{
+      grid-column: 1 / 2;
+      grid-row: 3 / 4;
+
+    }
+
+    .four{
+      grid-column: 1 / 2;
+      grid-row: 4 / 5;
+
+    }
+
+    .five{
+      grid-column: 1 / 2;
+      grid-row: 5 / 6;
+
+    }
+
+    .six{
+      grid-column: 1 / 2;
+      grid-row: 6 /7;
+    }
+
+}
